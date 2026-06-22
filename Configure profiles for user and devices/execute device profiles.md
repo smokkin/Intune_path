@@ -50,6 +50,8 @@ The process for creating device profiles is similar across all profile types. Ea
 3. Enter the following properties:
    - **Platform**: Choose which versions of Windows to include.
    - **Profile type**: Select the type you want to create.
+   - <img width="903" height="562" alt="image" src="https://github.com/user-attachments/assets/536f84be-df90-4a82-8075-ae07dda476c6" />
+
 4. Select **Create**.
 > After creation, you will be prompted to configure the profile settings across several tabs.
  
