@@ -9,25 +9,6 @@ This document consolidates three units from the Microsoft Learn training module 
 3. [Manage Devices in Intune Using Scripts](#3-manage-devices-in-intune-using-scripts)
 ---
  
-## Table of Contents
- 
-- [1. Monitor Device Profiles in Intune](#1-monitor-device-profiles-in-intune)
-  - [View Existing Profiles](#view-existing-profiles)
-  - [View Details on a Profile](#view-details-on-a-profile)
-  - [View Conflicts](#view-conflicts)
-- [2. Manage Device Sync in Intune](#2-manage-device-sync-in-intune)
-  - [Sync a Device](#sync-a-device)
-  - [Intune Policy Categories](#intune-policy-categories)
-  - [Policy Check-in Frequency](#policy-check-in-frequency)
-- [3. Manage Devices in Intune Using Scripts](#3-manage-devices-in-intune-using-scripts)
-  - [Prerequisites](#prerequisites)
-  - [Create a PowerShell Script Policy for Windows](#create-a-powershell-script-policy-for-windows)
-  - [Create a Shell Script Policy for macOS](#create-a-shell-script-policy-for-macos)
-- [Tools and Resources Used](#tools-and-resources-used)
-- [Source Notes](#source-notes)
-- [GitHub README Usage](#github-readme-usage)
----
- 
 ## 1. Monitor Device Profiles in Intune
  
 > **Estimated reading time:** 3 minutes
@@ -212,15 +193,3 @@ Adding a shell script for macOS follows the same steps as creating a PowerShell 
 | **Microsoft Learn – Oversee Device Profiles Module** | [https://learn.microsoft.com/en-us/training/modules/oversee-device-profiles/](https://learn.microsoft.com/en-us/training/modules/oversee-device-profiles/) |
  
 ---
- 
-## Source Notes
- 
-- **Profile assignment status screenshot:** The original Unit 2 references a screenshot of the profile assignment status charts in the Intune admin center. The image is hosted on Microsoft's CDN and is not reproduced here. Refer to the original source for visual reference.
-- **"Intune device profiles" link:** Unit 3 references a link to "Intune device profiles" for configuration policies but does not provide the explicit URL. This likely refers to the Microsoft Docs page on [Create a device profile in Intune](https://learn.microsoft.com/en-us/mem/intune/configuration/device-profile-create).
-- **Windows 10 vs Windows 11 check-in:** The check-in frequency table in Unit 3 lists "Windows 11" but the script creation steps refer to "Windows 10 and later." This reflects Intune's combined targeting for modern Windows versions.
-- **No troubleshooting section present:** The source units do not include a dedicated troubleshooting section beyond conflict resolution in Unit 2.
-- **Script size limit:** Both PowerShell and shell scripts must be under 200 KB (ASCII). The sources do not specify behavior if this limit is exceeded — consult Microsoft Docs for validation errors.
-- **macOS shell script interpreter requirement:** The source states command-line interpreters "for applicable shells" must be installed but does not enumerate which shells are supported beyond `sh` and `zsh`.
-- **Module published/updated:** April 16, 2025 (per page metadata). Content may be updated by Microsoft after this date.
----
- 
