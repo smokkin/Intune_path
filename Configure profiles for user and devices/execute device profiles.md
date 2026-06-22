@@ -101,11 +101,11 @@ A summary of all profile settings is displayed. Select **Create** to finalize.
  
 Intune allows you to **exclude groups** from a policy assignment. However, there are critical behaviors to understand:
  
-- When excluding groups, exclude **only users** or **only device groups** — not a mixture of both.
+- When excluding groups, exclude **only users** or **only device groups** not a mixture of both.
 - Intune does **not** consider user-to-device relationships when evaluating exclusions.
 - Including user groups while excluding device groups may **not produce expected results**.
 - When mixed groups are used or conflicts arise, **inclusion takes precedence over exclusion**.
-**Example — Potential Pitfall:**
+**Example: Potential Pitfall:**
  
 > You want to assign a device profile to all devices **except kiosk devices**. You include the `All Users` group but exclude the `All Devices` group.  
 > **Result:** All users *and their devices* get the policy — even if the user's device is part of `All Devices`. Exclusion only evaluates direct group members, not devices associated with a user.
@@ -130,7 +130,7 @@ Applicability Rules allow you to further restrict or exclude profile assignments
  
 Intune may not include all the built-in settings you need. In those cases, you can create a **custom device profile** to configure settings that are not natively available in Intune.
  
-> 💡 **Tip:** Before creating a custom profile, check the **Windows device restriction profile** — it contains many built-in settings that do not require custom values. Also note that Intune is frequently updated, so always verify whether a native setting now exists for your use case.
+> 💡 **Tip:** Before creating a custom profile, check the **Windows device restriction profile** it contains many built-in settings that do not require custom values. Also note that Intune is frequently updated, so always verify whether a native setting now exists for your use case.
  
 ---
  
@@ -232,13 +232,6 @@ For Apple devices, Intune custom profiles allow you to assign settings created u
  
 ---
  
-## Source Notes
- 
-- **Screenshots referenced but not embedded:** The original Microsoft Learn pages include two screenshots (the Create Profile screen and the Custom OMA-URI Settings screen). These images are hosted on Microsoft's CDN and are not reproduced here. For visual reference, see the source pages linked below.
-- **Android Enterprise OMA-URI list is intentionally limited:** The source explicitly states that only three OMA-URI paths are supported for Android Enterprise custom profiles. No additional paths are documented.
-- **OEMConfig details are minimal:** The source only briefly mentions OEMConfig. For deeper documentation, consult the OEM's specific OEMConfig app documentation or the Android Enterprise Help Center.
-- **Apple Configurator export format:** The source implies the exported file is a `.mobileconfig` file, but does not state this explicitly. This is standard Apple Configurator behavior.
-- **Applicability Rules:** The source mentions this tab exists and allows OS version/edition targeting, but does not detail the available rule options. Further documentation may be found in the full Intune admin center.
 - **Source pages (unit numbers) from the Microsoft Learn module:**
   - Unit 2: [Explore Intune Device Profiles](https://learn.microsoft.com/en-us/training/modules/execute-device-profiles/2-explore-intune-device-profiles)
   - Unit 3: [Create Device Profiles](https://learn.microsoft.com/en-us/training/modules/execute-device-profiles/3-create-device-profiles)
@@ -246,11 +239,3 @@ For Apple devices, Intune custom profiles allow you to assign settings created u
 - **Last updated date on source:** April 16, 2025. Content may have been updated since this README was generated.
 ---
  
-## GitHub README Usage
- 
-> This file is ready to paste directly into a `README.md` file in any GitHub repository.  
-> To use it:
-> 1. Copy the entire contents of this file.
-> 2. Create or open your repository's `README.md`.
-> 3. Paste the content and save.
-> 4. If you wish to include the screenshots from the original Microsoft Learn pages, download them from the source URLs and place them in a `/docs/images/` folder, then update the image references accordingly.
