@@ -1,4 +1,4 @@
-> Windows, Microsoft Configuration Manager, Microsoft Intune
+> `Windows, Microsoft Configuration Manager, Microsoft Intune`
 
 # Microsoft Intune Device Profiles
  
