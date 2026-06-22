@@ -2,10 +2,6 @@
 
 # Microsoft Intune Device Profiles
  
-> **Source:** Microsoft Learn — *Execute Device Profiles* module  
-> Last reviewed: April 16, 2025  
-> Author: `rstearman` (wwlpublish)
- 
 ---
  
 ## Overview
