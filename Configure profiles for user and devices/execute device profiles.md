@@ -1,4 +1,4 @@
-WindowsMicrosoft Configuration ManagerMicrosoft Intune
+> WindowsMicrosoft Configuration ManagerMicrosoft Intune
 
 # Microsoft Intune Device Profiles
  
@@ -6,27 +6,6 @@ WindowsMicrosoft Configuration ManagerMicrosoft Intune
 > Last reviewed: April 16, 2025  
 > Author: `rstearman` (wwlpublish)
  
----
- 
-## Table of Contents
- 
-1. [Overview](#overview)
-2. [Types of Device Profiles](#types-of-device-profiles)
-3. [Create a Device Profile](#create-a-device-profile)
-   - [Step-by-Step: Windows Device Profile](#step-by-step-windows-device-profile)
-   - [Profile Configuration Tabs](#profile-configuration-tabs)
-   - [Assignment Options](#assignment-options)
-   - [Group Exclusion Rules and Warnings](#group-exclusion-rules-and-warnings)
-   - [Applicability Rules](#applicability-rules)
-4. [Create a Custom Device Profile](#create-a-custom-device-profile)
-   - [Custom Profile for Windows 10 and Later](#custom-profile-for-windows-10-and-later)
-   - [OMA-URI Setting Fields](#oma-uri-setting-fields)
-   - [Example: Allow VPN Over Cellular](#example-allow-vpn-over-cellular)
-   - [Custom Profile for Android Devices](#custom-profile-for-android-devices)
-   - [Custom Profile for Apple Devices (iOS/iPadOS/macOS)](#custom-profile-for-apple-devices-iosipados-macos)
-5. [Tools and Resources Used](#tools-and-resources-used)
-6. [Source Notes](#source-notes)
-7. [GitHub README Usage](#github-readme-usage)
 ---
  
 ## Overview
