@@ -143,16 +143,17 @@ Follow these steps when setting up a new Windows device:
  
 1. **Power on** the new device. Wait for the **"Getting Ready"** message, then follow the on-screen prompts.
 2. **Customize your region and language**, then **accept the Microsoft Software License Terms**.
-3. **Select your network** to connect to the internet.
-4. When prompted with *"Who owns this PC?"*, select **"This device belongs to my organization"**.
-5. **Enter the credentials** (username and password) provided by your organization, then select **Sign in**.
-6. Windows locates the matching tenant in Microsoft Entra ID.
+   <img width="524" height="271" alt="image" src="https://github.com/user-attachments/assets/6b939184-ff6c-4678-a329-c8b36ac1125e" />
+4. **Select your network** to connect to the internet.
+5. When prompted with *"Who owns this PC?"*, select **"This device belongs to my organization"**.
+6. **Enter the credentials** (username and password) provided by your organization, then select **Sign in**.
+7. Windows locates the matching tenant in Microsoft Entra ID.
    - If you are in a **federated domain**, you will be redirected to your on-premises **Secure Token Service (STS)** server (e.g., Active Directory Federation Services — AD FS).
    - If you are in a **non-federated domain**, enter your credentials directly on the **Microsoft Entra ID-hosted page**.
-7. You will be prompted to complete a **Multifactor Authentication (MFA)** challenge.
-8. Microsoft Entra ID checks whether **enrollment in mobile device management (MDM)** is required.
-9. Windows **registers the device** in the organization's directory in Microsoft Entra ID and **enrolls it in MDM** (e.g., Intune), if applicable.
-10. Upon completion:
+8. You will be prompted to complete a **Multifactor Authentication (MFA)** challenge.
+9. Microsoft Entra ID checks whether **enrollment in mobile device management (MDM)** is required.
+10. Windows **registers the device** in the organization's directory in Microsoft Entra ID and **enrolls it in MDM** (e.g., Intune), if applicable.
+11. Upon completion:
     - **Managed users** — Windows takes you to the desktop via automatic sign-in.
     - **Federated users** — You are directed to the Windows sign-in screen to enter your credentials.
 > **Tip:** You can also join a device to Microsoft Entra ID **after setup** by going to **Settings → Accounts → Access work or school → Connect** and selecting the option to join a Microsoft Entra ID domain.
