@@ -400,5 +400,3 @@ git push origin main
 
 
 ---
-
-*Documentation extracted and formatted from [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/enroll-devices-use-endpoint-configuration-manager/) — Units 2, 3, and 4. Content belongs to Microsoft. This README is for educational and reference purposes.*
