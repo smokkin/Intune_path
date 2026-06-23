@@ -1,6 +1,6 @@
 # Maintain User Profiles — Windows 10 / Modern Desktop
 
-> **Audience:** IT administrators, Desktop Administrators, Modern Desktop Administrators
+> IT administrators, Desktop Administrators, Modern Desktop Administrators
  
 ---
  
