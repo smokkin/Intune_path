@@ -1,6 +1,6 @@
 # Oversee Device Profiles in Microsoft Intune
  
-> **Audience:** IT Administrators managing devices with Microsoft Intune
+> IT Administrators managing devices with Microsoft Intune
  
 This document consolidates three units from the Microsoft Learn training module on overseeing device profiles in Intune:
  
