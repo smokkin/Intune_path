@@ -1,3 +1,5 @@
+> `Azure, Microsoft Configuration Manager, Microsoft Intune, Microsoft Entra ID`
+
 # Microsoft Entra ID — Device Authentication & Join
  
 ---
