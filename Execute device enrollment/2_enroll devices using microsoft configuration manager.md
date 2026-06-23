@@ -184,7 +184,7 @@ When a device is selected from the Devices pane or within a collection, the **ri
 | Client Action | Description |
 |---------------|-------------|
 | **Start Resource Explorer** | Review inventory information about a device, including OS information, memory, and installed applications |
-| **Start Policy Retrieval** | Execute client actions locally, direct from the site server — triggers a policy refresh on the device |
+| **Start Policy Retrieval** | Execute client actions locally, direct from the site server triggers a policy refresh on the device |
 | **Add to a Collection** | Add the client directly to a collection (e.g., a targeted installation collection) from the object itself |
 | **Client Settings RSOP** | Review the current client settings applied to a given endpoint (Resultant Set of Policy) |
 
