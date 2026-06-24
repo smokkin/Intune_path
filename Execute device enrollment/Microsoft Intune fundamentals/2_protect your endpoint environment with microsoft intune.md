@@ -15,6 +15,8 @@ Intune includes settings and features you can enable or disable for different de
 
 You then use Intune to **apply** (or "assign") the profile to the devices.
 
+<img width="837" height="589" alt="image" src="https://github.com/user-attachments/assets/20caacad-5f43-43f6-9a16-3702460428b2" />
+
 ---
 
 ### Types of Device Policies
