@@ -448,5 +448,3 @@ The following are real-world scenarios derived from the content above, including
 
 ---
 
-
-*Documentation sourced from [Microsoft Learn — App Management Using Microsoft Endpoint Manager](https://learn.microsoft.com/en-us/training/modules/app-management-using-microsoft-endpoint-manager/). © Microsoft 2024.*
