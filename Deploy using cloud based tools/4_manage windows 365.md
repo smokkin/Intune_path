@@ -60,7 +60,7 @@ Windows 365 is available in two editions:
 
 > **Access Link:** Users can navigate to [https://windows365.microsoft.com](https://windows365.microsoft.com) to access their Cloud PCs. Remote Desktop clients are available for Windows, macOS, iOS/iPadOS, and Android.
 
-<img width="440" height="458" alt="image" src="https://github.com/user-attachments/assets/3323748a-ffef-4f43-9b53-3f3627dfc578" />
+<img width="340" height="358" alt="image" src="https://github.com/user-attachments/assets/3323748a-ffef-4f43-9b53-3f3627dfc578" />
 
 ---
 
@@ -83,7 +83,7 @@ An Azure network connection allows Cloud PCs to join the organization's domain a
 1. Sign in to the **Microsoft Intune admin center** with an account that is an Intune Administrator in Microsoft Entra ID and has owner permissions to the virtual network in the Azure subscription.
 2. Select **Devices** > **Windows 365** (under *Provisioning*) > **Azure network connection** > **Create connection**.
 3. On the **Network details** page, enter a **Name** for the connection (must be unique within the tenant).
-   <img width="1200" height="910" alt="image" src="https://github.com/user-attachments/assets/e82e5304-309a-4395-98ac-c68662ebb074" />
+   <img width="370" height="310" alt="image" src="https://github.com/user-attachments/assets/e82e5304-309a-4395-98ac-c68662ebb074" />
 5. Select a **Subscription** and **Resource group** that contains your Cloud PC resources.
 6. Select a **Virtual network** and **Subnet**, then select **Next**.
 7. On the **AD domain** page, provide the **AD domain name**, **Organizational unit** (optional), and an **AD domain username and password** for the service account used for connecting the Cloud PCs to your Active Directory domain.
@@ -105,7 +105,7 @@ To add a custom image (up to 20 custom generalized images can be uploaded):
 Provisioning policies define how Cloud PCs are structured and assigned to user security groups.
 
 1. Sign in to the **Microsoft Intune admin center**, select **Devices** > **Windows 365** > **Provisioning policies** > **Create policy**.
-   <img width="900" height="549" alt="image" src="https://github.com/user-attachments/assets/61e1a568-b23f-4537-bd51-ecbfc24e0e3d" />
+   <img width="350" height="319" alt="image" src="https://github.com/user-attachments/assets/61e1a568-b23f-4537-bd51-ecbfc24e0e3d" />
 3. On the **General** page, enter a **Name** for the new policy.
 4. For **On-premises network connection**, select the network connection to use for this policy, then select **Next**.
 5. On the **Image** page, for **Image type**, select one of the following options:
@@ -146,9 +146,9 @@ The Reprovision remote action resets the Cloud PC to its initial state.
 
 #### Steps to Reprovision:
 1. Sign in to the **Microsoft Intune admin center**, select **Devices** > **All Devices** > choose a Cloud PC device > select **Reprovision**.
-<img width="900" height="450" alt="image" src="https://github.com/user-attachments/assets/6ac1531d-2e69-4ee3-8e70-3ea4ae9360d7" />
-2. In the confirmation box, select **Yes**. The process will begin automatically.
-3. Once the new Cloud PC is created, Windows 365 sends access information directly to the user.
+   <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6ac1531d-2e69-4ee3-8e70-3ea4ae9360d7" />
+3. In the confirmation box, select **Yes**. The process will begin automatically.
+4. Once the new Cloud PC is created, Windows 365 sends access information directly to the user.
 
 ### Resize a Cloud PC
 The Resize action lets you upgrade a Cloud PC's RAM, CPU, and storage configurations.
@@ -161,9 +161,9 @@ The Resize action lets you upgrade a Cloud PC's RAM, CPU, and storage configurat
 
 #### Steps to Resize:
 1. Sign in to the **Microsoft Intune admin center**, select **Devices** > **All Devices** > choose a device > select **Resize**.
-<img width="900" height="450" alt="image" src="https://github.com/user-attachments/assets/519bdf08-e6e7-4536-829c-ed3591a5d567" />
-2. Review the list of available target SKUs (RAM/vCPU upgrades). Select your targeted tier.
-3. Select **Resize**.
+   <img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/519bdf08-e6e7-4536-829c-ed3591a5d567" />
+3. Review the list of available target SKUs (RAM/vCPU upgrades). Select your targeted tier.
+4. Select **Resize**.
 
 > [!IMPORTANT]
 > The system prioritizes paid licenses when you have a mix of paid and trial licenses. If your license inventory lacks the required SKU tier, the resizing operation will fail. You must add matching licenses via the Microsoft Admin Center before retrying.
