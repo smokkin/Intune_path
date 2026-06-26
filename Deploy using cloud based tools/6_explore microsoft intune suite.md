@@ -1,4 +1,4 @@
-# Microsoft Intune Suite — Complete Study Guide
+# Microsoft Intune Suite Complete Study Guide
 ---
 
 ## 1. Discover Essentials of Microsoft Intune Suite
