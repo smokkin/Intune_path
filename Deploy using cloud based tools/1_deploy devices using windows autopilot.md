@@ -260,6 +260,8 @@ After setup, powering on the devices triggers Autopilot-managed OOBE.
 
 > 📌 **Note:** Windows Autopilot cannot perform advanced provisioning; use MDM solutions such as Intune for that. You can manage Windows Autopilot in Microsoft Store for Business or in Intune.
 
+<img width="921" height="567" alt="image" src="https://github.com/user-attachments/assets/fbcd927b-45de-4be6-84f1-4c958ae8eb5a" />
+
 ---
 
 ## 5. Autopilot Deployment Scenarios
