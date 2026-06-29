@@ -1,5 +1,6 @@
 > `Role: Administrator, Security Engineer, Security Operations Analyst`
 > `Subject: Asset management, Cloud computing, Cloud security Compliance, IT management and monitoring, Security Threat protection`
+
 > learnt how to prepare your environment for device management, enroll and validate devices, configure and secure endpoints, protect data with conditional access, harden security with Defender for Endpoint, and accelerate remediation using Microsoft Security Copilot. Gain hands-on experience with real-world labs and practical scenarios to implement Zero Trust principles and modern endpoint security.
 > **Prerequisites**
 > Basic understanding of IT security principles
