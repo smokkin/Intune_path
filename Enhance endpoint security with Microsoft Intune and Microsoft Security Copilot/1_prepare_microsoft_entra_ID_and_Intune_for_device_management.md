@@ -63,6 +63,8 @@ By the end of this module, you are ready to onboard devices into Microsoft Intun
 
 Before you manage devices with Microsoft Intune, you need to ensure users and administrators have the right permissions and licenses. Microsoft Entra ID (formerly Azure Active Directory) serves as the identity foundation for Microsoft Intune, controlling who can access the service and what they can do.
 
+<img width="1180" height="647" alt="image" src="https://github.com/user-attachments/assets/d5fbffee-2bf1-4c1b-9d8d-0e0cecbc1fcf" />
+
 ---
 
 ### Key Roles for Device Management
@@ -175,10 +177,12 @@ Use a security group to assign Intune (or bundled) licenses to multiple users:
 3. Select **All products** and choose the product (e.g., **Enterprise Mobility + Security E5**, **Microsoft Intune Plan 1**, or a Microsoft 365 bundle)
 4. Select **Licensed groups**
 5. Select **+ Assign**
-6. Search for and select the target security group
-7. Select **Assignment options** to review service plans and deselect any you don't want — keep dependent plans together
-8. Select **Review + assign**, then **Assign**
-9. Monitor status under **Licensed groups** (e.g., *Assignment in progress*, *Assignment successful*)
+   <img width="1362" height="847" alt="image" src="https://github.com/user-attachments/assets/c668e6e2-2e0e-4769-ad74-368fa69f3aa6" />
+
+7. Search for and select the target security group
+8. Select **Assignment options** to review service plans and deselect any you don't want — keep dependent plans together
+9. Select **Review + assign**, then **Assign**
+10. Monitor status under **Licensed groups** (e.g., *Assignment in progress*, *Assignment successful*)
 
 To verify later, revisit **Billing > Licenses > All products > [Product] > Licensed groups**.
 
@@ -205,6 +209,7 @@ Microsoft Entra ID includes several device-related settings that impact enrollme
 1. Navigate to **Microsoft Entra ID** > **Devices** > **Device settings**
 2. Adjust the settings based on your organization's security policies
 3. Save changes
+<img width="1000" height="607" alt="image" src="https://github.com/user-attachments/assets/1b82bdff-a44e-4d2d-87c6-7d37820c626e" />
 
 ---
 
@@ -223,6 +228,7 @@ Microsoft Entra ID includes several device-related settings that impact enrollme
 ## 3. Configure Your Tenant for Device Onboarding
 
 With identity and licensing configured, you're ready to prepare your Microsoft Intune tenant for device enrollment. This involves setting the Mobile Device Management (MDM) authority, organizing groups for device targeting, and configuring enrollment restrictions to control which devices can enroll.
+<img width="1320" height="763" alt="image" src="https://github.com/user-attachments/assets/6d07555d-bcd0-4459-a9ae-16f25ab202ce" />
 
 ---
 
@@ -283,6 +289,7 @@ Dynamic groups automatically add or remove members based on attribute rules. Thi
 6. Validate the query and save the group
 
 > **💡 Tip**: Use dynamic groups whenever possible to reduce administrative overhead. However, dynamic membership evaluation can take **up to 24 hours**, so plan accordingly for time-sensitive scenarios.
+<img width="1172" height="677" alt="image" src="https://github.com/user-attachments/assets/4dae8d62-358d-48bc-8563-29b9742a51c1" />
 
 #### Dynamic Group Rule Examples
 
