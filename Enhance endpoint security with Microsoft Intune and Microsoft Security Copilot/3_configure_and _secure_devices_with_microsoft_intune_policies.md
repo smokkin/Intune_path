@@ -159,6 +159,7 @@ The **Device restrictions** profile is the primary method for configuring Androi
 - For advanced settings not yet in the Settings catalog
 - When you need to configure CSPs directly
 - For settings documented in Microsoft docs but not exposed in the UI
+  <img width="924" height="392" alt="image" src="https://github.com/user-attachments/assets/703e4594-8ab0-4f2b-8da5-da6615b422e4" />
 
 > **Note:** Microsoft recommends using the Settings catalog for new profiles whenever possible. Custom profiles should only be used for settings not available in the catalog.
 
@@ -208,6 +209,8 @@ The **Device restrictions** profile is the primary method for configuring Androi
 For detailed platform-specific configuration steps, see:
 - [Configure iOS/iPadOS device settings](https://learn.microsoft.com/en-us/mem/intune/configuration/device-restrictions-ios)
 - [Configure Android Enterprise device settings](https://learn.microsoft.com/en-us/mem/intune/configuration/device-restrictions-android-enterprise)
+  <img width="1043" height="999" alt="image" src="https://github.com/user-attachments/assets/adfdb79d-775a-4a8b-9cff-341dc22f010e" />
+
 
 #### Step 4: Configure Assignments
 
@@ -218,7 +221,7 @@ For detailed platform-specific configuration steps, see:
 | **Device groups** (BitLocker, firewall, certificates) | Security must be consistent regardless of who logs in | Settings persist for all users of a shared device |
 | **User groups** (email, OneDrive, app configurations) | Settings are personal to the user's work experience | Settings follow the user across devices |
 
-> **⚠️ Common Mistake:** Assigning device-level security to user groups means settings only apply when that specific user logs in. On shared devices, other users won't get the security settings.
+> **Common Mistake:** Assigning device-level security to user groups means settings only apply when that specific user logs in. On shared devices, other users won't get the security settings.
 
 **Exclusion groups** — critical for phased rollouts. Exclude pilot groups or known incompatible devices (e.g., exclude Windows 10 devices from a Windows 11-specific profile).
 
@@ -278,7 +281,8 @@ The profile will apply to targeted devices at their next check-in (default **8-h
 | **User status** | Troubleshooting user-targeted profiles like email |
 | **Per-setting status** | Troubleshooting — tells you WHAT failed, not just that something failed |
 
-> **💡 Tip:** Use Copilot in Intune prompts such as `Show me configuration profiles with the highest number of errors` or `Explain why the firewall profile failed on some devices` to accelerate root-cause analysis. Treat Copilot responses as advisory — verify with detailed reports before acting.
+> **Tip:** Use Copilot in Intune prompts such as `Show me configuration profiles with the highest number of errors` or `Explain why the firewall profile failed on some devices` to accelerate root-cause analysis. Treat Copilot responses as advisory — verify with detailed reports before acting.
+<img width="350" height="309" alt="image" src="https://github.com/user-attachments/assets/56141eaa-d9fe-44c7-a4a4-b05fae40e80b" />
 
 ---
 
@@ -381,8 +385,9 @@ Compliance policies are rules that define security and configuration requirement
 | **After 3–7 days** | Send push notification via Company Portal | Escalate awareness |
 | **After 7–14 days** | Remote lock device OR block corporate app access | Forces user action without destroying data; BYOD-friendly option |
 | **After 30 days** | Retire device | Reserved for abandoned devices, separated employees, or persistent security risks |
+<img width="1100" height="870" alt="image" src="https://github.com/user-attachments/assets/053ffc63-34bc-42f8-bf3e-4109ec60c5ef" />
 
-> **💡 Make notifications actionable:** Customize templates with `{{DeviceName}}` and `{{UserName}}` variables. Include specific fix instructions like "Enable BitLocker via Settings > Update & Security > Device encryption" instead of generic "fix your device" messages.
+> **Make notifications actionable:** Customize templates with `{{DeviceName}}` and `{{UserName}}` variables. Include specific fix instructions like "Enable BitLocker via Settings > Update & Security > Device encryption" instead of generic "fix your device" messages.
 
 **Assignment strategy:**
 - Assign compliance policies to **device groups** (not user groups) — compliance evaluates the device's security posture, not the user's behavior
@@ -409,6 +414,7 @@ Compliance policies are rules that define security and configuration requirement
 | **Organization-wide** | Executive reporting — aggregate health metrics (e.g., "92% of devices are compliant") |
 | **Device-level** | Troubleshooting why a specific user can't access resources |
 | **Per-policy** | Understanding adoption rate after rolling out a new policy |
+<img width="1342" height="682" alt="image" src="https://github.com/user-attachments/assets/6cad9059-130f-471b-b4dd-12c43cb0452d" />
 
 ---
 
